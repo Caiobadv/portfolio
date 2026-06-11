@@ -1,5 +1,6 @@
 .DS_Store
 .vercel
 .claude/
+claude-design/
 node_modules/
 *.log
