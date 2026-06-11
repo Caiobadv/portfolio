@@ -26,7 +26,7 @@ vercel --prod
 
 (Primeira vez: `npm i -g vercel && vercel login`.)
 
-Pós-deploy pendente: trocar `og:image` para URL absoluta de produção no `index.html`.
+Produção: https://portfolio-xi-eight-byzzeubxff.vercel.app — `og:image`, `og:url` e `canonical` no `index.html` apontam para esse domínio em URL absoluta. Se um dia entrar domínio próprio, atualizar os três.
 
 ## Verificação antes de qualquer commit
 
