@@ -13,10 +13,11 @@ Site estático single-page em PT-BR. HTML puro. Publicado na Vercel.
 
 1. **Nunca adicionar framework, build step ou lib externa de JS/CSS** sem ordem explícita do Caio.
 2. **Nunca inventar fatos, números ou métricas.** Toda copy vem de fonte real (GitHub github.com/Caiobadv, LinkedIn, ou do próprio Caio). Sem dado, escreve o status real.
-3. Posicionamento correto: **"Dev/Engenheiro de software @ kinid · CloudIn"** — kinid = identidade digital do ativo imobiliário; CloudIn = tecnologia para hotelaria. **Não chamar de "founder/fundador".**
+3. Posicionamento correto: **"Dev/Engenheiro de software @ kinid · CloudIn"**. kinid = identidade digital do ativo imobiliário, com IA aplicada ao produto; CloudIn = tecnologia para hotelaria (reservas, login/autenticação de usuários, backend FastAPI, IA no atendimento). **Não chamar de "founder/fundador".**
 4. Design: dark, 1 cor de acento (`--accent: #2dd4bf`), system font stack, mobile-first. Sem animação de entrada; só transição de hover.
 5. Acessibilidade: HTML semântico, contraste AA, `alt` em qualquer imagem nova, skip-link preservado.
 6. Página total < 200KB (sem contar foto, se um dia entrar).
+7. **Nunca usar travessão (—) em nenhum texto.** Caio considera padrão claro de texto de IA. Reestruturar com vírgula, dois-pontos, ponto ou "·".
 
 ## Deploy
 
@@ -26,7 +27,7 @@ vercel --prod
 
 (Primeira vez: `npm i -g vercel && vercel login`.)
 
-Produção: https://portfolio-xi-eight-byzzeubxff.vercel.app — `og:image`, `og:url` e `canonical` no `index.html` apontam para esse domínio em URL absoluta. Se um dia entrar domínio próprio, atualizar os três.
+Produção: https://portfolio-xi-eight-byzzeubxff.vercel.app. `og:image`, `og:url` e `canonical` no `index.html` apontam para esse domínio em URL absoluta. Se um dia entrar domínio próprio, atualizar os três.
 
 ## Verificação antes de qualquer commit
 
